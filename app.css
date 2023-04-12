@@ -1,0 +1,43 @@
+* {
+    background-color: rgb(167, 190, 197);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+    text-align: center;
+    font-size: 140%;
+    text-decoration: underline;
+}
+
+.container{
+    text-align: center;
+}
+
+.button{
+    font-weight: bolder;
+    color: crimson;
+    background-color: rgb(219, 231, 241);
+    cursor: pointer;
+}
+
+.button:active{
+    position: relative;
+    top: 1px;
+}
+
+.input{
+    border-radius: 10%;
+    border-width: 3px;
+    border-style: double;
+    background-color: rgb(219, 231, 241);
+}
+
+#result{
+    text-align: center;
+    font-size: 250%;
+    color: crimson;
+    font-weight: bold;
+    font-family: monospace;
+    font-style: oblique;
+    
+}
